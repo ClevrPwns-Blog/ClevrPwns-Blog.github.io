@@ -1,9 +1,9 @@
 ---
-anchor: j3rr
-title: J3RR
+anchor: ios
+title: iOS Hacker Wiki
 image: img/portfolio/wiki.jpg
-description: [iOS Hacker Wiki] (https://ioshackerwiki.com)
-team: Single
-date: July 2011
-category: Music
+description:  <a href="https://ioshackerwiki.com"> iOS Hacker Wiki </a>
+team: iOS Hacker Wiki Core Tea,
+date: June 2016
+category: Hacking
 ---
