@@ -1,5 +1,5 @@
 # Site settings
-title: Bloggy Blog
+title: ClevrPwn
 index_title: ClevrPwn # same as title in index.html file, so that custom description can be set in page.html layout.
 blog_title: My Blog
 header-img: img/home-bg.jpg
