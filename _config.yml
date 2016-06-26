@@ -11,7 +11,7 @@ url:  #only used in disque comments for now
 disqus_url:  # disque comments are broken if you send http:// along with url
 github_username:  decorumos
 facebook_username:  ClevrPwn
-twitte_username:  ClevrPwn
+twitter_username:  ClevrPwn
 email_username:  jerrick.davis.97@gmail.com
 collections:
   - portfolio
