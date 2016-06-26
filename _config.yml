@@ -4,8 +4,8 @@ index_title: ClevrPwn # same as title in index.html file, so that custom descrip
 blog_title: My Blog
 header-img: img/home-bg.jpg
 email: jerrick.davis.97@gmail.com
-copyright_name: ShikherVerma
-description: "Online Territory of Shikher Verma"
+copyright_name: Jerrick Davis
+description: "ClevrPwn's Blog"
 baseurl: "" #base url is for when the site is not at the root but at some subdirectory.
 url:  #only used in disque comments for now
 disqus_url:  # disque comments are broken if you send http:// along with url
