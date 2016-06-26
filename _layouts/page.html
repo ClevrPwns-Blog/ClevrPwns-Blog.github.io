@@ -12,10 +12,10 @@ layout: default
                     <hr class="small">
                     <span class="subheading">
                         {% if page.description == "showaboutdescription" %}
-                            Half Hacker <i class="fa fa-cogs "></i> Half Roboticist
+                            Half Hacker <i class="fa fa-cogs "></i> Half Activist
                         {% elsif page.description == "showtags" %}
                             {% for tag in page.tags %}
-                                <a href="/blog/tags/{{ tag }}" style="text-decoration: normal; font-weight: normal; color: #ffffff;"><i class="fa fa-tag"></i>{{ tag }}</a>  
+                                <a href="/blog/tags/{{ tag }}" style="text-decoration: normal; font-weight: normal; color: #ffffff;"><i class="fa fa-tag"></i>{{ tag }}</a>
                             {% endfor %}
                         {% else %}
                             {{ page.description }}
