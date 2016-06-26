@@ -1,5 +1,5 @@
 ---
-anchor: j3rr
+anchor: ios
 title: iOS Hacker Wiki
 image: img/portfolio/wiki.jpg
 description:  <a href="https://ioshackerwiki.com"> iOS Hacker Wiki </a>
