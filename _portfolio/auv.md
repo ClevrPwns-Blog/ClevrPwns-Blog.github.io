@@ -1,9 +1,8 @@
 ---
-anchor: auv
-title: AUV
-image: img/portfolio/submarine.png
-description: VARUN is the name of the autonomous underwater vehicle being developed by a team of undergraduate students under Robotics Club IIT Kanpur. I have spend more time on this that all the other projects (other that huracan) combined. Headover to <a href="https://auv-iitk.github.io">auv-iitk.github.io</a> for more details. We are using ROS and OpenCV for making the robot runs autonomously. All source code is open source and can be accessed at <a href="https://github.com/auv-iitk">github.com/auv-iitk</a>.
-team: AUV team
-date: September 2014
-category: Robotics
+anchor: j3rr
+title: J3RR
+image: img/portfolio/headphones.jpg
+description: J3RR is my main musical project. I've released two full length albums and am soon to release my third. Headover to <a href="https://j3rr.bandcamp.com">my BandCamp</a> to listen & for more details.
+date: July 2011
+category: Music
 ---
