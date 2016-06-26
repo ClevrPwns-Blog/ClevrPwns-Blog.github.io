@@ -1,0 +1,33 @@
+# Site settings
+title: Bloggy Blog
+index_title: ClevrPwn # same as title in index.html file, so that custom description can be set in page.html layout.
+blog_title: My Blog
+header-img: img/home-bg.jpg
+email: jerrick.davis.97@gmail.com
+copyright_name: ShikherVerma
+description: "Online Territory of Shikher Verma"
+baseurl: "" #base url is for when the site is not at the root but at some subdirectory.
+url:  #only used in disque comments for now
+disqus_url:  # disque comments are broken if you send http:// along with url
+github_username:  decorumos
+facebook_username:  ClevrPwn
+email_username:  jerrick.davis.97@gmail.com
+collections:
+  - portfolio
+
+# used to estimate reading time
+wpm: 150
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+port: 8888
+permalink: /blog/:title
+
+# jekyll-paginate
+paginate: 5
+paginate_path: blog/page:num
+
+# gem dependencies
+gems: [jekyll-paginate, jekyll-feed, jekyll-gist]
