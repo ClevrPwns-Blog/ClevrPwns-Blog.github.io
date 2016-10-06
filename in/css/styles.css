@@ -1,0 +1,53 @@
+.html5audio .audio-start {
+	border-radius: 50%;
+	cursor: pointer;
+	display: block;
+	height: 25px;
+	left: 5px;
+	margin-top: -12.5px;
+	outline: none;
+	position: relative;
+	top: 50%;
+	width: 25px;
+}
+.html5audio .audio-start i {
+	background: url(../img/audio.png) no-repeat 0 0;
+	cursor: pointer;
+	display: block;
+	height: 25px;
+	left: 0;
+	position: absolute;
+	text-indent: -9999px;
+	top: 0;
+	width: 25px;
+}
+.html5audio .audio-start:hover,
+.html5audio .audio-start:focus {
+	background: url(../img/audio-playing.png) no-repeat 0 0;
+}
+.html5audio .audio-start:hover i,
+.html5audio .audio-start:focus i {
+	background-position: -25px 0;
+}
+.html5audio .audio-playing,
+.html5audio .audio-playing:hover,
+.html5audio .audio-playing:focus,
+.html5audio .audio-paused,
+.html5audio .audio-paused:hover,
+.html5audio .audio-paused:focus {
+	background: url(../img/audio-playing.png) no-repeat 0 0;
+}
+.html5audio .audio-playing i {
+	background-position: -50px 0;
+}
+.html5audio .audio-playing:hover i,
+.html5audio .audio-playing:focus i {
+	background-position: -75px 0;
+}
+.html5audio .audio-paused i {
+	background-position: -25px 0;
+}
+.html5audio .audio-paused:hover i,
+.html5audio .audio-paused:focus i {
+	background-position: -25px 0;
+}
