@@ -1,0 +1,128 @@
+[
+  
+    {
+      "title"    : "IN: The Manic Album",
+      "category" : "",
+      "tags"     : "Music",
+      "url"      : "/blog/IN",
+      "date"     : "2016-10-14 21:00:00 -0600",
+      "content"   : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"   : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"   : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]"
+    } ,
+  
+    {
+      "title"    : "Writing",
+      "category" : "",
+      "tags"     : "Life",
+      "url"      : "/blog/Writing",
+      "date"     : "2016-07-18 00:00:00 -0600",
+      "content"   : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"   : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"   : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]"
+    } ,
+  
+    {
+      "title"    : "Welcome To My Digital Life.",
+      "category" : "",
+      "tags"     : "Life",
+      "url"      : "/blog/Welcome-To-My-Digital-Life",
+      "date"     : "2016-06-25 21:00:00 -0600",
+      "content"   : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"   : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"   : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]"
+    } 
+  
+  ,
+  
+   {
+     
+        "title"    : "Activism",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/blog/tags/Activism",
+        "date"     : "",
+        "content"   : ""
+     
+   } ,
+  
+   {
+     
+        "title"    : "Hacking",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/blog/tags/Hacking",
+        "date"     : "",
+        "content"   : ""
+     
+   } ,
+  
+   {
+     
+        "title"    : "Life",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/blog/tags/Life",
+        "date"     : "",
+        "content"   : ""
+     
+   } ,
+  
+   {
+     
+        "title"    : "Music",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/blog/tags/Music",
+        "date"     : "",
+        "content"   : ""
+     
+   } ,
+  
+   {
+     
+        "title"    : "Worth Reading",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/blog/tags/WorthReading",
+        "date"     : "",
+        "content"   : ""
+     
+   } ,
+  
+   {
+     
+        "title"    : "Blog",
+        "category" : "",
+        "tags"     : "Hacking, Life, Music",
+        "url"      : "/blog/",
+        "date"     : "",
+        "content"   : "\n\n<div class=\"post-preview\">\n    <a href=\"/blog/IN\">\n        <h2 class=\"post-title\">\n            IN: The Manic Album\n        </h2>\n        \n        <h3 class=\"post-subtitle\">\n            A Track By Track Explanation\n        </h3>\n        \n    </a>\n    <p class=\"post-meta\">Posted by Jerrick Davis on October 14, 2016</p>\n</div>\n<hr>\n\n\n<div class=\"post-preview\">\n    <a href=\"/blog/Writing\">\n        <h2 class=\"post-title\">\n            Writing\n        </h2>\n        \n        <h3 class=\"post-subtitle\">\n            \n        </h3>\n        \n    </a>\n    <p class=\"post-meta\">Posted by Jerrick Davis on July 18, 2016</p>\n</div>\n<hr>\n\n\n<div class=\"post-preview\">\n    <a href=\"/blog/Welcome-To-My-Digital-Life\">\n        <h2 class=\"post-title\">\n            Welcome To My Digital Life.\n        </h2>\n        \n        <h3 class=\"post-subtitle\">\n            \n        </h3>\n        \n    </a>\n    <p class=\"post-meta\">Posted by Jerrick Davis on June 25, 2016</p>\n</div>\n<hr>\n\n\n<!-- Pager -->\n\n"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Search",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/search/",
+        "date"     : "",
+        "content"   : "<!-- Html Elements for Search -->\n<input type=\"text\" id=\"search-input\" placeholder=\"Enter keywords...\">\n<ul id=\"results-container\" ></ul>    \n\n<!-- Script pointing to jekyll-search.js -->\n<script src=\"/js/jekyll-search.js\" type=\"text/javascript\"></script>\n\n    <script type=\"text/javascript\">\n      SimpleJekyllSearch({\n        searchInput: document.getElementById('search-input'),\n        resultsContainer: document.getElementById('results-container'),\n        json: '/search.json',\n        searchResultTemplate: '<li><a href=\"{url}\" title=\"{desc}\">{title}</a></li>',\n        noResultsText: 'No results found',\n        limit: 10,\n        fuzzy: true,\n        exclude: ['Welcome', 'Blog']\n      })\n    </script>\n"
+     
+   } ,
+  
+   {
+     
+        "title"    : "ClevrPwn",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/",
+        "date"     : "",
+        "content"   : "<!-- About Content -->\n<section id=\"about\">\n\t<div>\n\t\t<p>\n\t\t\tDocumentarian, Musician, Hacker, Marijuana Enthusiast and Activist. <br> I like to Break things. Founder at Anarchic Media and Core Team Member for the iOS Hacker wiki.\n\t\t</p>\n\t</div>\n</section>\n\n<!-- Portfolio Grid Section -->\n<section id=\"portfolio\">\n\t<div class=\"row\">\n\t\t<div class=\"text-center\">\n\t\t\t<h2>Here's the stuff I do.</h2>\n\t\t\t<hr>\n\t\t</div>\n\t</div>\n\n\t<div class=\"row\">\n\t\t\n\t\t<div class=\"col-sm-4 portfolio-item\">\n\t\t\t<a href=\"#j3rr\" class=\"portfolio-link\" data-keyboard=\"true\" data-toggle=\"modal\">\n\t\t\t\t<div class=\"caption\" >\n\t\t\t\t\t<div class=\"caption-content\" >\n\t\t\t\t\t\tJ3RR<p></p>\n\t\t\t\t\t\t<i class=\"fa fa-search-plus\"></i><p></p>\n\t\t\t\t\t\tCategory: Music\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<img src=\"img/portfolio/headphones.jpg\" class=\"img-responsive\" alt=\"\">\n\t\t\t</a>\n\t\t</div>\n\t\t\n\t\t<div class=\"col-sm-4 portfolio-item\">\n\t\t\t<a href=\"#anarchic\" class=\"portfolio-link\" data-keyboard=\"true\" data-toggle=\"modal\">\n\t\t\t\t<div class=\"caption\" >\n\t\t\t\t\t<div class=\"caption-content\" >\n\t\t\t\t\t\tAnarchic Media<p></p>\n\t\t\t\t\t\t<i class=\"fa fa-search-plus\"></i><p></p>\n\t\t\t\t\t\tCategory: Activism\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<img src=\"img/portfolio/anarchic.jpg\" class=\"img-responsive\" alt=\"\">\n\t\t\t</a>\n\t\t</div>\n\t\t\n\t\t<div class=\"col-sm-4 portfolio-item\">\n\t\t\t<a href=\"#ios\" class=\"portfolio-link\" data-keyboard=\"true\" data-toggle=\"modal\">\n\t\t\t\t<div class=\"caption\" >\n\t\t\t\t\t<div class=\"caption-content\" >\n\t\t\t\t\t\tiOS Hacker Wiki<p></p>\n\t\t\t\t\t\t<i class=\"fa fa-search-plus\"></i><p></p>\n\t\t\t\t\t\tCategory: Hacking\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<img src=\"img/portfolio/wiki.jpg\" class=\"img-responsive\" alt=\"\">\n\t\t\t</a>\n\t\t</div>\n\t\t\n\t</section>\n\n\t<!-- Portfolio Modals -->\n\t<section id=\"portfolio modals\">\n\t\t\n\t\t<div class=\"portfolio-modal modal fade\" id=\"j3rr\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"true\">\n\t\t\t<div class=\"modal-content\">\n\t\t\t\t<div class=\"close-modal\" data-dismiss=\"modal\">\n\t\t\t\t\t<div class=\"lr\">\n\t\t\t\t\t\t<div class=\"rl\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"container\">\n\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t<div class=\"col-lg-8 col-lg-offset-2\">\n\t\t\t\t\t\t\t<div class=\"modal-body\">\n\t\t\t\t\t\t\t\t<h2>J3RR</h2>\n\t\t\t\t\t\t\t\t<hr class=\"star-primary\">\n\t\t\t\t\t\t\t\t<img src=\"img/portfolio/headphones.jpg\" class=\"img-responsive img-centered\" alt=\"\">\n\t\t\t\t\t\t\t\t<p>J3RR is my main musical project. I've released two full length albums and am soon to release my third. Headover to <a href=\"https://j3rr.bandcamp.com\">my BandCamp</a> to listen & for more details.</p>\n\t\t\t\t\t\t\t\t<ul class=\"list-inline item-details\">\n\t\t\t\t\t\t\t\t\t<li>Team:\n\t\t\t\t\t\t\t\t\t\t<strong>Single\n\t\t\t\t\t\t\t\t\t\t</strong>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t<li>Date:\n\t\t\t\t\t\t\t\t\t\t<strong>July 2011\n\t\t\t\t\t\t\t\t\t\t</strong>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t<li>Category:\n\t\t\t\t\t\t\t\t\t\t<strong>Music\n\t\t\t\t\t\t\t\t\t\t</strong>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t<button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\"><i class=\"fa fa-times\"></i> Close</button>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\t\n\t\t<div class=\"portfolio-modal modal fade\" id=\"anarchic\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"true\">\n\t\t\t<div class=\"modal-content\">\n\t\t\t\t<div class=\"close-modal\" data-dismiss=\"modal\">\n\t\t\t\t\t<div class=\"lr\">\n\t\t\t\t\t\t<div class=\"rl\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"container\">\n\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t<div class=\"col-lg-8 col-lg-offset-2\">\n\t\t\t\t\t\t\t<div class=\"modal-body\">\n\t\t\t\t\t\t\t\t<h2>Anarchic Media</h2>\n\t\t\t\t\t\t\t\t<hr class=\"star-primary\">\n\t\t\t\t\t\t\t\t<img src=\"img/portfolio/anarchic.jpg\" class=\"img-responsive img-centered\" alt=\"\">\n\t\t\t\t\t\t\t\t<p>Anarchic Media is your media source for change. We're all about music, documentaries and news that helps you be more free. check us out on <a href=\"https://www.facebook.com/anarchicmedia/\"> Facebook </a></p>\n\t\t\t\t\t\t\t\t<ul class=\"list-inline item-details\">\n\t\t\t\t\t\t\t\t\t<li>Team:\n\t\t\t\t\t\t\t\t\t\t<strong>Anarchic Media\n\t\t\t\t\t\t\t\t\t\t</strong>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t<li>Date:\n\t\t\t\t\t\t\t\t\t\t<strong>February 2016\n\t\t\t\t\t\t\t\t\t\t</strong>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t<li>Category:\n\t\t\t\t\t\t\t\t\t\t<strong>Activism\n\t\t\t\t\t\t\t\t\t\t</strong>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t<button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\"><i class=\"fa fa-times\"></i> Close</button>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\t\n\t\t<div class=\"portfolio-modal modal fade\" id=\"ios\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"true\">\n\t\t\t<div class=\"modal-content\">\n\t\t\t\t<div class=\"close-modal\" data-dismiss=\"modal\">\n\t\t\t\t\t<div class=\"lr\">\n\t\t\t\t\t\t<div class=\"rl\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"container\">\n\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t<div class=\"col-lg-8 col-lg-offset-2\">\n\t\t\t\t\t\t\t<div class=\"modal-body\">\n\t\t\t\t\t\t\t\t<h2>iOS Hacker Wiki</h2>\n\t\t\t\t\t\t\t\t<hr class=\"star-primary\">\n\t\t\t\t\t\t\t\t<img src=\"img/portfolio/wiki.jpg\" class=\"img-responsive img-centered\" alt=\"\">\n\t\t\t\t\t\t\t\t<p><a href=\"https://ioshackerwiki.com\"> iOS Hacker Wiki </a></p>\n\t\t\t\t\t\t\t\t<ul class=\"list-inline item-details\">\n\t\t\t\t\t\t\t\t\t<li>Team:\n\t\t\t\t\t\t\t\t\t\t<strong>iOS Hacker Wiki Core Team\n\t\t\t\t\t\t\t\t\t\t</strong>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t<li>Date:\n\t\t\t\t\t\t\t\t\t\t<strong>June 2016\n\t\t\t\t\t\t\t\t\t\t</strong>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t<li>Category:\n\t\t\t\t\t\t\t\t\t\t<strong>Hacking\n\t\t\t\t\t\t\t\t\t\t</strong>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t<button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\"><i class=\"fa fa-times\"></i> Close</button>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\t\n\t</section>\n"
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+   } 
+  
+]
